@@ -1,0 +1,27 @@
+{
+  "name": "Nutty Baseball",
+  "short_name": "Nutty Baseball",
+  "description": "Interactive baseball learning and game tracking app for parents and kids",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fef9f3",
+  "theme_color": "#e85d04",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["sports", "education", "games"],
+  "lang": "en-US"
+}
+

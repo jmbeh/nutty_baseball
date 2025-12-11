@@ -9,6 +9,8 @@
 ## Project Type
 Next.js 16 App Router with TypeScript, Tailwind CSS 4, and local storage
 
+*Follows root CLAUDE.md Core Web defaults. No AI/LLM or backend features—pure client-side app.*
+
 ## Key Commands
 
 ### Development
@@ -24,6 +26,20 @@ npm run start        # Start production server
 ```bash
 vercel --prod
 ```
+
+## Vercel Optimization
+- **Static Generation:** All pages are statically pre-rendered
+- **Image Optimization:** AVIF/WebP formats, responsive sizing
+- **Security Headers:** X-Content-Type-Options, X-Frame-Options, X-XSS-Protection
+- **SEO:** Full Open Graph + Twitter Card metadata
+- **PWA:** Web manifest with installable app support
+- **CSS Optimization:** Experimental optimizeCss enabled
+
+### Required Assets (TODO: Create these)
+- `/public/icon-192.png` - 192x192 app icon
+- `/public/icon-512.png` - 512x512 app icon  
+- `/public/apple-touch-icon.png` - 180x180 iOS icon
+- `/public/og-image.png` - 1200x630 social preview
 
 ## Project Structure
 - `/app` - Next.js App Router pages and layouts
@@ -63,4 +79,4 @@ No external API keys required for MVP. All data stored locally in browser.
 
 ---
 
-**Last Updated:** 2025-12-10
+**Last Updated:** 2025-12-10 (Vercel optimization added)
