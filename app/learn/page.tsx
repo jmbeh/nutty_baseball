@@ -162,7 +162,11 @@ export default function LearnPage() {
     if (typeof window !== 'undefined') {
       const saved = localStorage.getItem('nutty-baseball-completed-lessons');
       if (saved) {
-        setCompletedLessons(new Set(JSON.parse(saved)));
+        try {
+          setCompletedLessons(new Set(JSON.parse(saved)));
+        } catch {
+          console.error('Failed to parse completed lessons from localStorage');
+        }
       }
     }
   }, []);

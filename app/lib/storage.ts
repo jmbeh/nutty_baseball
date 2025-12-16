@@ -38,7 +38,14 @@ export const getGames = (): Game[] => {
   if (typeof window === 'undefined') return [];
   
   const stored = localStorage.getItem(GAMES_KEY);
-  return stored ? JSON.parse(stored) : [];
+  if (!stored) return [];
+  
+  try {
+    return JSON.parse(stored);
+  } catch {
+    console.error('Failed to parse games from localStorage');
+    return [];
+  }
 };
 
 export const getGame = (id: string): Game | null => {
@@ -67,6 +74,13 @@ export const getCurrentGame = (): Game | null => {
   if (typeof window === 'undefined') return null;
   
   const stored = localStorage.getItem(CURRENT_GAME_KEY);
-  return stored ? JSON.parse(stored) : null;
+  if (!stored) return null;
+  
+  try {
+    return JSON.parse(stored);
+  } catch {
+    console.error('Failed to parse current game from localStorage');
+    return null;
+  }
 };
 

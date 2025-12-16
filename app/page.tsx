@@ -135,7 +135,7 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-foreground text-white py-6 mt-12" role="contentinfo">
+      <footer className="bg-foreground text-white py-6 mt-12">
         <div className="container mx-auto px-4 text-center">
           <blockquote className="text-lg">
             <p>"In the book of life, the answers aren't in the back."</p>

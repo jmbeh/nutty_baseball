@@ -74,7 +74,7 @@ That's it! Start learning baseball, track your first backyard game, and become t
 
 ## 🛠️ Tech Stack
 
-- **Next.js 16** with App Router
+- **Next.js 15** with App Router
 - **TypeScript** for type safety
 - **Tailwind CSS 4** for styling
 - **Local Storage** for data persistence (no backend needed!)
@@ -101,7 +101,7 @@ See `CLAUDE.md` for detailed development commands, project structure, and techni
 
 My son's love for Peanuts comics inspired him to explore baseball, so the Peanuts theme wasn't just decoration—it reframed "I don't know baseball" from embarrassing to endearing. Adults relax when the UI winks at their confusion. Built as a web app with zero backend—local storage only. I wanted zero friction for parents who feel behind their kids. (Also learned way more about Charlie Brown than expected.)
 
-## What's Next
+## 🔮 What's Next
 
 I'm working on **ambient listening for backyard games**—automatically tracking scores by listening to our natural conversation. The challenge: phone mics pick up everything, and game-relevant talk ("that's a strike!") gets mixed with regular conversation. Same audio recognition complexity as Allegro, but now I need to filter signal from noise in real-time.
 
