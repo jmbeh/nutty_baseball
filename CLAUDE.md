@@ -6,6 +6,15 @@
 > - Environment setup and troubleshooting
 > - NOT for human readers (see README.md)
 
+## 🚨 CRITICAL: GitHub Safety
+
+**This project ONLY syncs to personal GitHub:**
+- ✅ `github.com/jmbeh/nutty_baseball`
+- ❌ **NEVER push to:** `git.corp.adobe.com/*` or `github.com/adobe/*`
+
+Git remote format: `git@github.com:jmbeh/nutty_baseball.git`
+Git author email: `behjianming@gmail.com`
+
 ## Project Type
 Next.js 16 App Router with TypeScript, Tailwind CSS 4, and local storage
 
